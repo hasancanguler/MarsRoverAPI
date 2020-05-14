@@ -7,26 +7,25 @@ using static MarsRoverAPI.Enums;
 
 namespace MarsRoverAPI.Actions
 {
-    public class Forward: Action
+    public class Forward : Action
     {
+        private Dictionary<Direction, IForward> forwardSelector = new Dictionary<Direction, IForward>();
+
+        public Forward()
+        {
+            forwardSelector.Clear();
+            forwardSelector.Add(Direction.N, new North());
+            forwardSelector.Add(Direction.E, new East());
+            forwardSelector.Add(Direction.S, new South());
+            forwardSelector.Add(Direction.W, new West());
+        }
+
         public override Rover Move(Rover rover)
         {
-            switch (rover.Direction)
-            {
-                case Direction.N:
-                    rover.Y += 1;
-                    break;
-                case Direction.E:
-                    rover.X += 1;
-                    break;
-                case Direction.S:
-                    rover.Y += -1;
-                    break;
-                case Direction.W:
-                    rover.X += -1;
-                    break;
-            }
-            return rover;
+            IForward forward;
+            forwardSelector.TryGetValue(rover.Direction, out forward);
+            return forward.Forward(rover);
         }
     }
+  
 }
