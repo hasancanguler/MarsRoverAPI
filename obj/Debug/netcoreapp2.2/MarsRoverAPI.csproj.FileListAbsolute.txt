@@ -1,0 +1,14 @@
+C:\Projects\Person\MarsRover\MarsRoverAPI\bin\Debug\netcoreapp2.2\MarsRoverAPI.deps.json
+C:\Projects\Person\MarsRover\MarsRoverAPI\bin\Debug\netcoreapp2.2\MarsRoverAPI.runtimeconfig.json
+C:\Projects\Person\MarsRover\MarsRoverAPI\bin\Debug\netcoreapp2.2\MarsRoverAPI.runtimeconfig.dev.json
+C:\Projects\Person\MarsRover\MarsRoverAPI\bin\Debug\netcoreapp2.2\MarsRoverAPI.dll
+C:\Projects\Person\MarsRover\MarsRoverAPI\bin\Debug\netcoreapp2.2\MarsRoverAPI.pdb
+C:\Projects\Person\MarsRover\MarsRoverAPI\obj\Debug\netcoreapp2.2\MarsRoverAPI.csprojAssemblyReference.cache
+C:\Projects\Person\MarsRover\MarsRoverAPI\obj\Debug\netcoreapp2.2\MarsRoverAPI.csproj.CoreCompileInputs.cache
+C:\Projects\Person\MarsRover\MarsRoverAPI\obj\Debug\netcoreapp2.2\MarsRoverAPI.RazorAssemblyInfo.cache
+C:\Projects\Person\MarsRover\MarsRoverAPI\obj\Debug\netcoreapp2.2\MarsRoverAPI.RazorAssemblyInfo.cs
+C:\Projects\Person\MarsRover\MarsRoverAPI\obj\Debug\netcoreapp2.2\MarsRoverAPI.AssemblyInfoInputs.cache
+C:\Projects\Person\MarsRover\MarsRoverAPI\obj\Debug\netcoreapp2.2\MarsRoverAPI.AssemblyInfo.cs
+C:\Projects\Person\MarsRover\MarsRoverAPI\obj\Debug\netcoreapp2.2\MarsRoverAPI.RazorTargetAssemblyInfo.cache
+C:\Projects\Person\MarsRover\MarsRoverAPI\obj\Debug\netcoreapp2.2\MarsRoverAPI.dll
+C:\Projects\Person\MarsRover\MarsRoverAPI\obj\Debug\netcoreapp2.2\MarsRoverAPI.pdb
